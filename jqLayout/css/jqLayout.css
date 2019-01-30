@@ -24,7 +24,7 @@
 	width: 100%;
 	overflow: hidden;
 	box-sizing: border-box;
-	border: 1px dotted #0a64b2;
+	/*border: 1px dotted #0a64b2;*/
 }
 /* west */
 .ui-jqLayout-west{
@@ -45,9 +45,9 @@
 	top:50px;
 	bottom: 30px;
 	width: 150px;
+	z-index: 2;
 	overflow: hidden;
 	box-sizing: border-box;
-	z-index: 2;
 	/*border: 1px dotted #6E6E6E;*/
 }
 /* center */
@@ -57,7 +57,7 @@
 	bottom: 30px;
 	width: 100%;
 	box-sizing: border-box;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	padding: 0 158px 0 228px;
 	/*border: 3px solid #106b0a;*/
 }
