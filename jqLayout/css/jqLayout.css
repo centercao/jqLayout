@@ -36,7 +36,7 @@
 	z-index: 2;
 	overflow: hidden;
 	box-sizing: border-box;
-	/*border: 1px dotted rgba(250, 19, 15, 0.65);*/
+	border: 3px dotted rgba(11, 250, 5, 0.65);
 }
 /* east */
 .ui-jqLayout-east{
@@ -48,7 +48,7 @@
 	z-index: 2;
 	overflow: hidden;
 	box-sizing: border-box;
-	/*border: 1px dotted #6E6E6E;*/
+	border: 3px dotted #3d6e0b;
 }
 /* center */
 .ui-jqLayout-center{
@@ -61,27 +61,6 @@
 	padding: 0 158px 0 228px;
 	/*border: 3px solid #106b0a;*/
 }
-.ui-jqLayout-controlBar-left{
-	position: absolute;
-	float:left;
-	top:50px;
-	bottom: 30px;
-	left:220px;
-	width: 8px;
-	overflow: hidden;
-	box-sizing: border-box;
-	/*border: 1px dotted #6b090a;*/
-}
-.ui-jqLayout-controlBar-right{
-	position: absolute;
-	top:50px;
-	bottom: 30px;
-	right:150px;
-	width: 8px;
-	box-sizing: border-box;
-	overflow: hidden;
-	/*border: 1px dotted #106b0a;*/
-}
 .ui-jqLayout-controlBut{
 	position: absolute;
 	margin: auto;
@@ -89,6 +68,8 @@
 	width: 8px;
 	overflow: hidden;
 	box-sizing: border-box;
+	cursor: pointer;
+	z-index: 888;
 	top: 0; left: 0; bottom: 0; right: 0;
 	/*border: 1px dotted #fa130f;*/
 }
